@@ -1,5 +1,11 @@
 {
     "idf.adapterTargetName": "esp32",
     "idf.port": "/dev/ttyUSB0",
-    "idf.flashType": "UART"
+    "idf.flashType": "UART",
+    "files.associations": {
+        "*.sqlbook": "sql",
+        "*.ndjson": "jsonl",
+        "*.dbclient-js": "javascript",
+        "rgb_led.h": "c"
+    }
 }
